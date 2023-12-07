@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Radiohead Informative</title>
+        <link rel="stylesheet" href="radiohead.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+    <body>
+<!-- start the page header -->
+<header>
+    <img class="logo" src="images/radiohead men.jpeg" alt="site logo" width="80" height="auto">
+    <div>
+      <h1>Radiohead Informative</h1>
+      <p>Everything you need to know about Radiohead from music to lifestyle</p>
+    </div>
+  </header>
+<!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Radiohead</a></li>
+            <li class="active"><a href="community.html">Community</a></li>
+            <li><a href="news.html">News and Updates</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="music.html">Music</a></li>
+        </ul>
+    </nav>
+<!--Start of the Main Page-->
+    <main>
+        <h2>Be a part of the community!</h2>
+        <p>Fill out your information down below to join our social medias and text and or email lists to get VIP access to early releases and exclusives!</p>
+        <figure class="crowdhero">
+            <img src="images/crowd.jpg" alt="Crowd at Concert" width="1024" height="683">
+        </figure>
+        <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Join the mail or texting lists</legend>
+                <label> First Name* <input type="text" name="fname" required></label>
+                <label> Last Name* <input type="text" name="lname" required></label>
+                <label> Cell Number <input type="tel" name="phone" placeholder="987-555-1234"></label>
+                <label> Email <input type="email" name="email" placeholder="thomyorke@yahoo.com"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Where are you from? </legend>
+                <label for="alabama">Alabama <input type="radio" name="usaStates" value="Alabama" id="alabama"></label>
+                <label for="alaska">Alaska<input type="radio" name="usaStates" value="Alaska" id="alaska"></label>
+                <label for="wyoming">Wyoming<input type="radio" name="usaStates" value="Wyoming" id="wyoming"></label>
+                <label for="utah">Utah<input type="radio" name="usaStates" value="Utah" id="utah"></label>
+        </fieldset>
+                <label>Let us know your favorite Radiohead album!
+                <select name="Album">
+                    <option value="none">Please Select</option>
+                    <option value="Pablo Honey">Pablo Honey</option>
+                    <option value="The Bends">The Bends</option>
+                    <option value="OK Computer">OK Computer</option>
+                    <option value="Kid A">Kid A</option>
+                    <option value="Amnesiac">Amnesiac</option>
+                    <option value="Hail to the Thief">Hail to the Thief</option>
+                    <option value="In Rainbows">In Rainbows</option>
+                    <option value="TKOL">The King of Limbs</option>
+                    <option value="A Moon Shaped Pool">A Moon Shaped Pool</option>
+                </select>
+                </label>
+        <br>
+                <label>Who is your favorite Radiohead band member?</label>
+                <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+                <label for="thom yorke">Thom Yorke</label>
+                <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+                <label for="Johnny Greenwood">Johnny Greenwood</label>
+                <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+                <label for="colin greenwood">Colin Greenwood</label>
+                <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+                <label for="Ed Obrien">Ed O'Brien</label>
+
+                <label><h2>Comments</h2>
+                    <textarea name="comments"></textarea>
+                </label>
+
+            <input href="submit" type="submit" value="Submit">
+        </form>
+<!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <h2>Click the links below for Radiohead's social media pages!</h2>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://x.com/radiohead?s=20" class="fa fa-twitter" target="_blank" class="button-link"></a>
+                <a href="https://www.instagram.com/radiohead/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="fa fa-instagram" target="_blank" class="button-link"></a>
+                <a href="https://www.reddit.com/r/radiohead" class="fa fa-reddit" target="_blank" class="button-link"></a>
+                <a href="https://pin.it/5rMwVUp" class="fa fa-pinterest" target="_blank" class="button-link"></a>
+<!-- start the page footer -->
+        <footer>
+            <address>&copy;2023 &bull; Susannah Hludzinski &bull; <a href="mailto:radioheadinfo@gmail.com">Email Us</a> </address> 
+        </footer>
+    </body>
